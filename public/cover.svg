@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Night Signal game cover">
+<defs><radialGradient id="bg"><stop stop-color="#193c49"/><stop offset="1" stop-color="#060c1c"/></radialGradient><radialGradient id="orb" cx="31%" cy="28%"><stop stop-color="#a8fff0"/><stop offset=".35" stop-color="#32a7a2"/><stop offset="1" stop-color="#08253e"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="16"/></filter></defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<g stroke="#7cdfca" fill="none" opacity=".17"><circle cx="923" cy="290" r="250"/><circle cx="923" cy="290" r="207"/><circle cx="923" cy="290" r="163"/></g>
+<circle cx="923" cy="290" r="142" fill="#62f5d0" opacity=".2" filter="url(#glow)"/><circle cx="923" cy="290" r="124" fill="url(#orb)"/>
+<ellipse cx="923" cy="290" rx="190" ry="58" transform="rotate(-23 923 290)" stroke="#9dfbf1" stroke-width="3" fill="none" opacity=".8"/>
+<g font-family="Arial,sans-serif"><text x="94" y="145" font-size="20" letter-spacing="8" fill="#58decf">ECHO OPS / EXPEDITION 01</text><text x="88" y="287" font-weight="900" font-size="104" letter-spacing="-8" fill="#ffffff">NIGHT</text><text x="88" y="391" font-weight="900" font-size="104" letter-spacing="-8" fill="#58e6d5">SIGNAL</text><text x="93" y="451" font-size="25" fill="#a9c2d2">ONE CREW. TWO CLUES. ONE WAY HOME.</text><text x="94" y="548" font-size="18" letter-spacing="3" fill="#f6c678">REAL-TIME COOPERATIVE MYSTERY • 2–8 PLAYERS</text></g>
+</svg>

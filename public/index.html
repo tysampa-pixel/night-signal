@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070d1d">
+  <meta name="description" content="Night Signal — a cooperative multiplayer mystery. Share secret intel, choose the right beacon, and guide your crew home.">
+  <link rel="icon" type="image/svg+xml" href="/cover.svg">
+  <link rel="stylesheet" href="/style.css">
+  <title>Night Signal — a co-op game of hidden clues</title>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><span class="logo" aria-hidden="true">⌁</span><span>NIGHT<span class="brand-light">SIGNAL</span><small>COOPERATIVE OPERATIONS</small></span></div>
+    <div class="top-right"><span class="indicator" id="connectionDot"></span><span id="connectionLabel">STANDBY</span><span class="slash">/</span><span>SECTOR 09</span></div>
+  </header>
+  <main id="app"><div class="load-panel"><div class="loader"></div><p>Establishing connection...</p></div></main>
+  <footer class="footer"><span>NS / EXPEDITION 01</span><span>ONE CREW. TWO CLUES. ONE WAY HOME.</span><span>MADE FOR THE NIGHT SHIFT ✦</span></footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js" defer></script>
+</body>
+</html>
