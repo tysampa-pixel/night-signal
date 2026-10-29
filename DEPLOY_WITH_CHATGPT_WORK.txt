@@ -1,0 +1,18 @@
+I want to complete Handshake AI Skills Studio's "Create a Multiplayer Game" mission with this original project: NIGHT SIGNAL.
+
+Please take the supplied ZIP of an existing, fully implemented Node.js multiplayer game as the starting point — do not replace it with a mockup or a single-player demo. Keep the existing visual design and gameplay unless you find a demonstrable defect.
+
+MISSION REQUIREMENTS:
+- Deploy the full Node.js app (server.js + public files) as one public HTTPS site. This is NOT a static-only site, because it uses a server and live Server-Sent Events.
+- Players must be able to create a 5-character room code and share a public URL; 2–8 can join from different devices and networks with no account or download.
+- Server must keep each player's secret clue private; shared votes, chat, and timers update in real time.
+- Test with at least two independent browser contexts/devices: create room, join, launch, distinct clues, shared chat, votes, correct reveal, round 2, all five rounds, and replay. Test on desktop and narrow mobile viewports.
+- Ensure no accidental page resets or lost sessions on page refresh, and fix any defects you find. Never claim public deployment or verification if not completed.
+- Use an appropriate Node-capable host (Render, Railway, etc.). The supplied render.yaml is an example. If an external account, authentication or deployment authorization is needed, request that specific action from me without asking for passwords in chat.
+- Once publicly live, give me the exact working HTTPS URL and help submit it to Handshake with title, PNG cover image, description, and link.
+
+TITLE: Night Signal — The Hidden Clue Co-op
+DESCRIPTION: Night Signal is a real-time cooperative mystery for 2–8 friends. Each player receives private intel that is insufficient alone. Only by sharing clues in live chat can the crew identify the safe beacon, vote before the timer expires, and survive five transmissions. No logins, downloads, or installs — just a room code, a public link, and teamwork.
+COVER: NightSignal_Cover.png (included in ZIP).
+
+IMPORTANT: The mission UI says Oct 31, 2026 at 11:59 PM PT, but the linked PDF of the official rules states Oct 30, 2026 at 11:59 PM PT. Prioritize the earlier published rules deadline to be safe. The contest is open to legal residents of Portugal per Appendix A, subject to the remaining conditions.

@@ -1,0 +1,10 @@
+{
+  "name": "night-signal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A real-time, zero-dependency cooperative party game",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "test": "node test.js"},
+  "engines": {"node": ">=18"},
+  "license": "MIT"
+}

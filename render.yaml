@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: night-signal
+    runtime: node
+    plan: free
+    buildCommand: echo "No dependencies to install"
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
